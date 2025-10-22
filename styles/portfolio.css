@@ -19,6 +19,13 @@
     font-size: 20px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
+}
+/* Header style */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* Nav Styles */
@@ -50,4 +57,29 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* banner style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-profile-pic{
+    width: 580px;
 }
