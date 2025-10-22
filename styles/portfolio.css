@@ -193,3 +193,26 @@ main section {
   font-size: 16px;
 }
 
+/* Footer Are Styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-column input[type="text"], .footer-column input[type="email"], .footer-column textarea{
+    height: 24px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 18px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+    border: none;
+}
+.footer-column textarea{
+    height: 100px;
+}
